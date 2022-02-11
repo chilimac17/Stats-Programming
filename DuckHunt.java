@@ -65,6 +65,7 @@ public class DuckHunt {
         score = sumArray(duckValList);
         return score;
     }
+    //this method generates the sum of all elements in a array
     public int sumArray(int[] list){
         int sum = 0;
         for(int i = 0; i < list.length; i++){
